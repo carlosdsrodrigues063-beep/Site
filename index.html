@@ -1,25 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
     <title>SIMPLES WEBSITE</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="light-theme">
-    <h1>Web Site</h1>
-    <p id="msg"> TAREFA ATUAL: </p>
-    <ul>
-        <li class="list"> Adicionar estilos visuais</li>
-        <li class="list"> Adicionar Theme light the Dark</li>
-        <li> Habilitar troca de temas</li>
-    </ul>
 
-    <div>
-        <button class="btn">Dark</button>
-    </div>
-    
+<body class="  ">
+
+    <header>
+        <div class="logo">Dev Store </div>
+        <nav>
+            <ul>
+                <li> Home </li>
+                <li> Produtos</li>
+                <li> Contato</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="tech-circle">
+
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item-actve">
+                <div class="product-img">
+
+                    <a href="https://ibb.co/fVK7rzj9">
+                        <img src="https://i.ibb.co/4wDx4nh2/air-pods.png" alt="AIR PODS MAX" border="0" /></a>
+                </div>
+
+                <div class="content">
+                    <p class=" product-tag">SOM PREMIUM</p>
+                    <p class="product-name">AIR PODS MAX</p>
+                    <p class="Description">Com drivers personalizados de alta fidelidade, 
+                        os AirPods Max entregam graves profundos, médios equilibrados e agudos extremamente claros,
+                        proporcionando uma experiência de áudio imersiva para músicas, filmes e jogos.
+                        A tecnologia de cancelamento ativo de ruído (ANC) bloqueia sons externos com eficiência, enquanto o Modo Transparência permite ouvir o ambiente ao redor quando necessário.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+
+                    <a href="https://ibb.co/WvQGyhnP">
+                        <img src="https://i.ibb.co/B2mcZpLr/apple-watch.png" alt="APPLE-WATCH" border="0" /></a>
+                </div>
+
+                <div class="content">
+                    <p class=" product-tag">Novo Lançamento</p>
+                    <p class="product-name">APPLE WATCH</p>
+                    <p class="Description">O Apple Watch é um smartwatch avançado que monitora saúde, 
+                        atividades físicas e notificações do iPhone diretamente no pulso. 
+                        Ele oferece sensores de frequência cardíaca, monitoramento de exercícios, 
+                        resistência à água e integração completa com o ecossistema Apple, proporcionando 
+                        praticidade e acompanhamento diário do bem-estar.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+
+                    <a href="https://ibb.co/Ldb9MMhn">
+                        <img src="https://i.ibb.co/s9kshhJy/vision-pro.png" alt="VISION-PRO" border="0" /></a>
+                </div>
+
+                <div class="content">
+                    <p class=" product-tag">Novo Lançamento</p>
+                    <p class="product-name">VISION PRO</p>
+                    <p class="Description">O Apple Vision Pro é um headset de computação espacial que combina realidade aumentada e virtual,
+                         permitindo interagir com aplicativos, vídeos e ambientes digitais em 3D. 
+                         Ele utiliza controle por olhos, mãos e voz, displays de altíssima resolução e áudio espacial para criar
+                        experiências imersivas de trabalho, entretenimento e comunicação.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0m3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+             <div class="numbers">01</div>
+        <div class="dots">
+            <div class="active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+
+    </main>
+
+
+
+
     <script src="script.js"></script>
     <noscript> voce precisa habilitar o Javascript para visualizar o site completo.</noscript>
 </body>
+
 </html>
